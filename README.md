@@ -35,17 +35,13 @@ This project was created to practice:
 ├── style.css
 ├── script.js
 └── README.md
-
-yaml
-Copy code
-
 ---
 
 ## 🚀 How to Run the Project
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/tic-tac-toe.git
+   git clone https://github.com/mritunjay00111/tic-tac-toe.git
 Open index.html in your browser
 (No build step or dependencies required)
 
@@ -82,4 +78,5 @@ Improve animations and UX
 This project is open-source and free to use for learning purposes.
 
 🙌 Acknowledgements
+
 Built as a personal learning project to strengthen JavaScript fundamentals.
