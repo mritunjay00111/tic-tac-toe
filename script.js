@@ -30,8 +30,9 @@ function handleWin(){
 }
 
 function handleDraw() {
-  const isDraw = [...box].every((item)=>{item.innerHTML!==""});
+  const isDraw = [...box].every(item=>item.innerHTML!=="");
   if (isDraw && !gameOver) {
+    gameOver=true;
     winboxOverlay.classList.remove("hidden");
     winboxMsg.innerHTML = "!!!IT'S A DRAW!!!";
   }
@@ -206,4 +207,5 @@ for (const item of box) {
 //   ) {
 //     player2Wins();
 //   }
+
 // }
